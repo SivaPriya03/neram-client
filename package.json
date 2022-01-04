@@ -1,0 +1,45 @@
+{
+  "name": "neram-client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack serve --open --config webpackconfig/webpack.dev.js",
+    "build": "webpack --config webpackconfig/webpack.prod.js"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SivaPriya03/neram-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/SivaPriya03/neram-client/issues"
+  },
+  "homepage": "https://github.com/SivaPriya03/neram-client#readme"
+}

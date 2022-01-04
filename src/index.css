@@ -1,0 +1,9 @@
+.outline {
+  outline: 2px solid red;
+  height: 2em;
+  width: 4em;
+  margin: 0 auto;
+}
+.test {
+  border-radius: 50%;
+}
